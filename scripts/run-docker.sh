@@ -57,7 +57,7 @@ else
 	VOLUME=$REPOROOT:$CONTAINER_HOME_DIR/termux-packages
 fi
 
-: ${TERMUX_BUILDER_IMAGE_NAME:=ghcr.io/termux/package-builder:r25c}
+: ${TERMUX_BUILDER_IMAGE_NAME:=ghcr.io/termux/package-builder@sha256:ae67c3f4dd2fcc8e470e26a520259624f0d0ccfbeb4aee546e57dc7296bf18fc}
 : ${CONTAINER_NAME:=termux-package-builder}
 
 USER=builder
