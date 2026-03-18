@@ -9,11 +9,13 @@ on:
     - 'packages/**'
     - 'root-packages/**'
     - 'x11-packages/**'
+    - 'disabled-packages/**'
   pull_request:
     paths:
     - 'packages/**'
     - 'root-packages/**'
     - 'x11-packages/**'
+    - 'disabled-packages/**'
   schedule:
     - cron: "0 */6 * * *"
   workflow_dispatch:
